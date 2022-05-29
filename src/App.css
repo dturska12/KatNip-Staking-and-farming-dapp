@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.nftapp {
+  background: linear-gradient(77deg, rgba(0,0,0,1) 100%, rgba(9,96,121,1) 100%);
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.connectbutton {
+  background: #00000010;
+  box-shadow: 0 0 1px 1px #17b2ff;
+  color: #ffffff;
+  border-radius: 14px;
+  padding: 5px 12px;
+  font-size: large;
+  font-weight: 200;
+}
+
+.navbarfont {
+  font-family: "SF Pro Display";
+  font-weight: 300;
+}
+
+.nftminter {
+  background: linear-gradient(77deg, rgba(0,0,0,1) 20%, rgba(16,150,238,1) 150%);  color: white;
+  box-shadow: 0 0 1px 1px #17b2ff;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+  -webkit-border: 20px !important;
+  -moz-border: 20px !important;
+  border: 20px !important;
+}
+
+.nftstaker {
+  background: linear-gradient(77deg, rgba(0,0,0,1) 20%, rgba(16,150,238,1) 150%);  color: white;
+  box-shadow: 0 0 1px 1px #17b2ff;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+  -webkit-border: 20px !important;
+  -moz-border: 20px !important;
+  border: 20px !important;
+}
+
+.stakingrewards {
+    font-family: "SF Pro Display";
+    font-weight: 300;
+    box-shadow: 1px 1px 15px #ffffff;
+    background-image: linear-gradient(293deg, #0093E9 0%, #17b2ff 21%, #000000 100%);  font-weight: 300;}
+
+.modal-style1 {
+  background: linear-gradient(77deg, rgba(0,0,0,1) 20%, rgba(16,150,238,1) 150%);  font-weight: 300;
+  color: white;
+  box-shadow: 0 0 1px 1px #17b2ff;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+  -webkit-border: 20px !important;
+  -moz-border: 20px !important;
+  border: 20px !important;
+}
+
+.container-style {
+  display: block;
+  -ms-grid-columns: 400px 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch
+}
+
+@keyframes glow2 {
+  from {
+    box-shadow: 0 0 4px -1px  #17b2ff;
+  }
+  to {
+    box-shadow: 0 0 10px 7px #17b2ff;
+  }
+}
+
+.stakegoldeffect {
+    font-family: "SF Pro Display";
+    font-weight: 300;
+    animation: glow2 3s infinite alternate;
+    background: linear-gradient(
+      to bottom,
+      rgb(1, 53, 130),
+      rgba(255, 0, 0, 0)
+    )
+}
+
+.katniprageeffect {
+  font-family: "SF Pro Display";
+  font-weight: 300;
+  animation: glow2 3s infinite alternate;
+  background: linear-gradient(
+    to bottom,
+    rgb(1, 53, 130),
+    rgba(255, 0, 0, 0)
+  )
+}
